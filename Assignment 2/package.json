@@ -1,12 +1,12 @@
 {
-  "name": "module-1",
+  "name": "assignment-2",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide - Module 1",
-  "main": "app.js",
+  "description": "Complete Node.js Guide - Assignment 2",
+  "main": "express_app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
-    "start-server": "node app.js"
+    "start": "nodemon express_app.js",
+    "start-server": "node express_app.js"
   },
   "author": "Luke",
   "license": "ISC",
@@ -14,7 +14,6 @@
     "nodemon": "^1.18.9"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
     "express": "^4.16.4"
   }
 }
